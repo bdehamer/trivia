@@ -1,0 +1,15 @@
+{
+  "name": "trivia",
+  "version": "0.0.0",
+  "description": "Trivia UI",
+  "scripts": {
+    "start": "node --watch main.js",
+    "db:init": "sqlite3 trivia.db < trivia.schema",
+    "db:console": "sqlite3 trivia.db"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.1.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
